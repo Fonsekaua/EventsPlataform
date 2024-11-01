@@ -1,0 +1,75 @@
+.label__form,.input__form{
+    display: block;
+    padding: 10px;
+    width: 100dvw;
+    max-width: 300px;
+    transition: .5s;
+}
+.container__form{
+    background: rgba(255, 143, 143, 0.705);
+    background-position: center;
+    width: 100dvw;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    color: rgb(255, 240, 172);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;     
+    border-radius: 5px;
+}
+.container__form >h1{
+    padding: 20px;
+    height: 50px;
+    text-align: center;
+    transition: .5s;
+}
+.container__form >h1:hover{
+    text-decoration: underline;
+    letter-spacing: 10px;
+}
+.form__login__register{
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    background-color: rgb(255, 240, 171); 
+    border-radius: 0 40px 5px 40px ;
+    height: 350px;
+    justify-content: center;
+}
+.input__form{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #feffac;
+    background: none;
+    letter-spacing: 2px;
+}
+.button__form{
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    align-self: center;
+    outline: none;
+    background: rgb(255, 109, 109);
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.form__login__register > a{
+    color: rgb(255, 117, 117);
+    align-self: center;
+    transition: .5s;
+}
+.form__login__register > a:hover{
+    color: rgb(216, 1, 1);
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.label__form:hover{
+    letter-spacing: 4px;
+    
+}

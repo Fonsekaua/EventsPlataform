@@ -14,6 +14,7 @@ if(isset($_SESSION['usuario'])){
     <title>Document</title>
     <link rel="stylesheet" href=<?= $globalCSS?>>
     <link rel="stylesheet" href=<?= $css?>>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 </head>
 <body>
