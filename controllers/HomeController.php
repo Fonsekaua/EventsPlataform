@@ -3,12 +3,18 @@
 
 function indexHome() {
     $global = "assets/css/global.css";
-    $header = "assets/css/header.css";
-    $main = "assets/css/main.css";
-    $footer = "assets/css/footer.css";
+    $css = "assets/css/home.css";
+    $content = __DIR__ . "/../views/pages/HomePages.php";
     
-    require __DIR__ . "/../views/Home.php";
+
+    require __DIR__ . "/../includes/layout.php";
+
+    
+    
+    
 
 }
+
+
 
 
