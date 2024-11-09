@@ -1,8 +1,12 @@
-<div id="header">
-    <h1>Eventos</h1>
+<header>
+    <a href="/">
+        <h1>
+            Events
+        </h1>
+    </a>
     <nav>
-        <input type="text" placeholder="Procurar eventos..." >
-        <button id="search"><i class="fa-solid fa-magnifying-glass"></i> search</button>
+        <input id="input__search" type="text" placeholder="Procurar eventos..." >
+        <button id="button__search"><i class="fa-solid fa-magnifying-glass"></i> search</button>
     </nav>
-    <button><a href="../views/pages/registerPage.php">Registro</a></button>
-</div>
+    <button><a href="/client/register">Registro</a></button>
+</header>
