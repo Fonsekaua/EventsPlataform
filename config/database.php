@@ -2,7 +2,7 @@
 
     function databaseConnection() {
         $localhost = "localhost";
-        $dbname = "nome_banco";
+        $dbname = "db_events";
         $username = "root";
         $password = "root";
         $dsn = "mysql:host=$localhost;dbname=$dbname";

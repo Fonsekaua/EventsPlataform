@@ -1,4 +1,4 @@
-<div id="main">
+<div id="div__events">
     
   <section>
     <img src="https://preview.redd.it/new-york-skyview-hq-3840x2160-v0-cf9c9i9olbyd1.jpeg?width=1080&crop=smart&auto=webp&s=cab8456edcdeeca25ca665766b51f67c34cff00a" alt="Imagem da cidade">

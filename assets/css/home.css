@@ -1,9 +1,8 @@
 
-#main{
+#div__events{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    background-color: rgb(27, 26, 26);
     justify-content: center;
     align-items: center;
     section{
@@ -49,7 +48,6 @@
         border-radius: 5px;  
         margin: auto;
         margin-top: 30px;
-        cursor: pointer;
         display: flex;
         justify-content:end;
         align-items: center;
