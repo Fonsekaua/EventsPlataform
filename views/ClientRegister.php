@@ -1,6 +1,6 @@
 
 
-    <form action="" class="form__client" id="form__register">
+    <form action="../config/api/registerClient.php" class="form__client" id="form__register" method="POST">
     <h1>re<span>g</span>ister</h1>
         <label class="label__client">
             <small>

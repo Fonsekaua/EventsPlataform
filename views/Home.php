@@ -1,3 +1,15 @@
+<?php 
+
+  $msg = $_GET['msg'] ?? null;
+  
+
+?>
+
+<?php if($msg === "recoveryAccount"):?>
+ <p class="text-primary text-center"><?php echo "Um E-mail com a senha temporária foi enviado para voocê!"?></p>
+  <?php endif;?>
+
+
 <div id="div__events">
     
   <section>

@@ -5,8 +5,8 @@ form__register.addEventListener("submit", (event) => {
     const formData = new FormData(form__register);
     const data = Object.fromEntries(formData);
     
-   
-    axios.post("http://localhost:8080/client/to/register", {
+   //altere pra porta que estiver usando
+    axios.post("http://localhost:8000/client/to/register", {
         first__name: data.register__first__name, 
         last__name: data.register__last__name,
         email: data.register__email,
